@@ -1,0 +1,6 @@
+<!--weaponInfo/dajian/dajian.wxml-->
+<view class="body">
+  <view class="infoSet">
+    <image src="../../image/dajiantitle.png" style="width: 100%;" mode="widthFix"></image>
+  </view>
+</view>

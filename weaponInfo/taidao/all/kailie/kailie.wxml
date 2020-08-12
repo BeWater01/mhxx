@@ -1,0 +1,38 @@
+<!--weaponInfo/kailie/kailie.wxml-->
+<view class="page">  
+  <view class="head">
+    <image src="/weaponInfo/taidao/all/kailie/info/kailie.png" style="width: 100%;" mode="widthFix"></image>
+  </view>
+    <view class="table">
+    <view class="tr bg-w">
+      <view class="th1">武器</view>
+      <view class="th2">威力</view>
+      <view class="th3">会心</view>
+      <view class="th4">防御</view>
+      <view class="th5">孔</view>
+      <view class="th6">斩味</view>
+    </view>
+    <view>
+      <block wx:for="{{listData}}" wx:key="{{weapon}}">
+        <view class="tr bg-g">
+          <view class="td1" font-size="50%">{{item.weapon}}</view>
+          <view class="td2">{{item.power}}</view>
+          <view class="td3">{{item.crit}}</view>
+          <view class="td4">{{item.def}}</view>
+          <view class="td5">{{item.hole}}</view>
+          <view class="td6">
+            <image src="{{item.jiang}}" style="width: 100%;" mode="widthFix" ></image>
+          </view>
+        </view>   
+      </block>
+    </view>
+  </view>
+  <view class="foot">
+      <radio-group class="radio-group" bindchange="radioChange">
+        <text class="txt">锋利度    </text>
+        <label class="radio" wx:for="{{radiogroup}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+        </label>
+      </radio-group>
+  </view>
+</view>

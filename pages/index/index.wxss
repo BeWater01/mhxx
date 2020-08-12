@@ -1,0 +1,25 @@
+/**index.wxss**/
+.container{
+  margin-top: 50px;
+}
+.content{
+  text-align: center;
+}
+.button{
+  margin: 25px;
+}
+.btnImg1 {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+.btnImg2 {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}
+.btnImg3 {
+  margin-right: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
+}

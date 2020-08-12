@@ -1,0 +1,7 @@
+<!--weaponInfo/dunfu/dunfu.wxml-->
+<view class="body">
+  <view class="infoSet">
+    <image src="../../image/dunfutitle.jpg" style="width: 100%;" mode="widthFix"></image>
+  </view>
+</view>
+

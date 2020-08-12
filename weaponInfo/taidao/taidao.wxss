@@ -1,0 +1,96 @@
+/* weaponInfo/taidao/taidao.wxss */
+.body{
+  margin-top: 3%;
+}
+.infoSet{
+  border-radius: 10%;
+  margin: 1%;
+}
+.title{
+  background-color: #0089bb;
+  color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60%;
+  height: 20px;
+  font-weight: bolder;
+  border-style: hidden;
+}
+.lei{
+  background-color: rgb(67, 128, 6);
+  color: rgb(204, 199, 199);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60%;
+  height: 20px;
+  font-weight: bolder;
+  border-style: hidden;
+  margin-top: 10px;
+}
+.bing{
+  background-color: rgb(156, 158, 156);
+  color: rgb(110, 20, 20);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60%;
+  height: 20px;
+  font-weight: bolder;
+  border-style: hidden;
+  margin-top: 10px;
+}
+.huo{
+  background-color: rgb(236, 60, 16);
+  color: rgb(204, 196, 91);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60%;
+  height: 20px;
+  font-weight: bolder;
+  border-style: hidden;
+  margin-top: 10px;
+}
+.bao{
+  background-color: rgb(27, 27, 27);
+  color: rgb(219, 215, 215);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60%;
+  height: 20px;
+  font-weight: bolder;
+  border-style: hidden;
+  margin-top: 10px;
+}
+.btnSet{
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+.btn{
+  font-size: 60%;
+  background-color: #E6F3F9;
+  justify-content: center;
+  font-weight: 400;
+  color:#0089bb
+}
+.footinp{
+  margin-top: 10px;
+  margin-bottom: 5%;
+  text-align: center;
+  background-color: #0089bb;
+  height: 40px;
+}
+.footinptext{
+  color: #E6F3F9;
+  padding-top: 10px;
+  text-align: center;
+}
+.allweapon{
+  margin-top: 10px;
+}
+.weaponbtn{
+  margin: 5px;
+  height: 30px;
+  background-color: #E6F3F9;
+  color: #0089bb;
+  font-size: 60%;
+}

@@ -1,0 +1,6 @@
+<!--weaponInfo/pianshou/pianshou.wxml-->
+<view class="body">
+  <view class="infoSet">
+    <image src="../../image/pianshoutitle.jpg" style="width: 100%;" mode="widthFix"></image>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+/* pages/monster/monster.wxss */
+.info{
+  padding: 3%;
+}
+.btnSet{
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+.button{
+  font-size: 65%;
+  background-color: #E6F3F9;
+  text-align: left;
+  justify-content: center;
+}
+.iconImage{
+  padding-right: 15px;
+  width: 20px;
+  height: 15px;
+}

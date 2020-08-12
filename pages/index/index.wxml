@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+    <button type="circle" class="button" bindtap="jumpMonster">
+    <image class='btnImg1' src='../../image/btnicon1 (1).jpg'></image>
+    {{monsterButton}}
+    </button>
+    <button type="circle" class="button" bindtap="jumpWeapon">
+    <image class='btnImg2' src='../../image/weapon (1).jpg'></image>
+    {{weaponButton}}
+    </button>
+    <button type="circle" class="button" bindtap="jumpSkill">
+    <image class='btnImg3' src='../../image/skill (1).jpg'></image>
+    {{skillButton}}
+    </button>
+  </view>
+</view>

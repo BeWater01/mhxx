@@ -1,0 +1,34 @@
+// pages/skill/skill.js
+Page({
+  data:{
+    listData:[
+      {"skill":"磨刀匠","point":"+10","describe":"缩短打磨时间"},
+      {"skill":"匠","point":"+10","describe":"+1"},
+      {"skill":"匠","point":"+15","describe":"+2"},
+      {"skill":"锋利度","point":"+10","describe":"锋利度消耗减半"},
+      {"skill":"剑术","point":"+10","describe":"不会弹刀"},
+      {"skill":"打磨术","point":"+10","describe":"钢刃打磨"},
+      {"skill":"钝器","point":"+10","describe":"斩味越低攻击越高"},
+      {"skill":"拔刀会心","point":"+10","describe":"拔刀会心100%"},
+      {"skill":"达人","point":"+10","describe":"会心加10%"},
+      {"skill":"达人","point":"+15","describe":"会心加20%"},
+      {"skill":"达人","point":"+20","describe":"会心加30%"},
+      {"skill":"痛击","point":"+10","describe":"弱点特效"},
+      {"skill":"连击","point":"+10","describe":"连击加会心"},
+      {"skill":"会心强化","point":"+10","describe":"增加会心伤害"},
+      {"skill":"体术","point":"+10","describe":"闪避或格挡降低耐力"},
+      {"skill":"体术","point":"+15","describe":"闪避或格挡降低耐力"},
+      {"skill":"闪避性能","point":"+10","describe":"闪避时间变长"},
+      {"skill":"闪避性能","point":"+15","describe":"闪避时间更长"},
+      {"skill":"闪避距离","point":"+10","describe":"闪避距离变长"},
+      {"skill":"格挡性能","point":"+10","describe":"减轻硬直"},
+      {"skill":"格挡性能","point":"+15","describe":"大幅减轻硬直"},
+      {"skill":"KO","point":"+10","describe":"昏厥"},
+      {"skill":"重击","point":"+10","describe":"破坏部位"},
+      {"skill":"斗魂","point":"+10","describe":"会心提升"},
+      {"skill":"斗魂","point":"+15","describe":"会心大幅提升"},
+      {"skill":"潜力","point":"+10","describe":"猫火1"},
+      {"skill":"潜力","point":"+15","describe":"猫火2"}
+    ]
+  }
+})

@@ -1,0 +1,8 @@
+/* weaponInfo/pianshou/pianshou.wxss */
+.body{
+  margin-top: 3%;
+}
+.infoSet{
+  border-radius: 10%;
+  margin: 1%;
+}

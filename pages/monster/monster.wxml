@@ -1,0 +1,126 @@
+<!--pages/monster/monster.wxml-->
+<view class="info">
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="阁螳螂"><image class="iconImage" src="../../image/阁螳螂/1.png"></image>阁螳螂</button>
+    <button class='button' bindtap='buttonTap' data-text="胧影夜鸟"><image class="iconImage" src="../../image/胧影夜鸟/1.png"></image>胧影夜鸟</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="水龙"><image class="iconImage" src="../../image/水龙/1.png"></image>水龙</button>
+    <button class='button' bindtap='buttonTap' data-text="熔岩龙"><image class="iconImage" src="../../image/熔岩龙/1.png"></image>熔岩龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="黑狼鸟"><image class="iconImage" src="../../image/黑狼鸟/1.png"></image>黑狼鸟</button>
+    <button class='button' bindtap='buttonTap' data-text="只眼黑狼鸟"><image class="iconImage" src="../../image/只眼黑狼鸟/1.png"></image>只眼黑狼鸟</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="大雪主白兔"><image class="iconImage" src="../../image/大雪主白兔/1.png"></image>大雪主白兔</button>
+    <button class='button' bindtap='buttonTap' data-text="红盔青熊兽"><image class="iconImage" src="../../image/红盔青熊兽/1.png"></image>红盔青熊兽</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="金狮子"><image class="iconImage" src="../../image/金狮子/1.png"></image>金狮子</button>
+    <button class='button' bindtap='buttonTap' data-text="激昂金狮子"><image class="iconImage" src="../../image/激昂金狮子/1.png"></image>激昂金狮子</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="巨兽"><image class="iconImage" src="../../image/巨兽/1.png"></image>巨兽</button>
+    <button class='button' bindtap='buttonTap' data-text="银峰巨兽"><image class="iconImage" src="../../image/银峰巨兽/1.png"></image>银峰巨兽</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="岩穿鬼蛙"><image class="iconImage" src="../../image/岩穿鬼蛙/1.png"></image>岩穿鬼蛙</button>
+    <button class='button' bindtap='buttonTap' data-text="矛碎盾蟹"><image class="iconImage" src="../../image/矛碎盾蟹/1.png"></image>矛碎盾蟹</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="将军镰蟹"><image class="iconImage" src="../../image/将军镰蟹/1.png"></image>将军镰蟹</button>
+    <button class='button' bindtap='buttonTap' data-text="铠裂将军蟹"><image class="iconImage" src="../../image/铠裂将军蟹/1.png"></image>铠裂将军蟹</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="泡狐龙"><image class="iconImage" src="../../image/泡狐龙/1.png"></image>泡狐龙</button>
+    <button class='button' bindtap='buttonTap' data-text="天眼泡狐龙"><image class="iconImage" src="../../image/天眼泡狐龙/1.png"></image>天眼泡狐龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="恐暴龙"><image class="iconImage" src="../../image/恐暴龙/1.png"></image>恐暴龙</button>
+    <button class='button' bindtap='buttonTap' data-text="怒食恐暴龙"><image class="iconImage" src="../../image/怒食恐暴龙/1.png"></image>怒食恐暴龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="爆锤龙"><image class="iconImage" src="../../image/爆锤龙/1.png"></image>爆锤龙</button>
+    <button class='button' bindtap='buttonTap' data-text="宝缠爆锤龙"><image class="iconImage" src="../../image/宝缠爆锤龙/1.png"></image>宝缠爆锤龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="碎龙"><image class="iconImage" src="../../image/碎龙/1.png"></image>碎龙</button>
+    <button class='button' bindtap='buttonTap' data-text="猛爆碎龙"><image class="iconImage" src="../../image/猛爆碎龙/1.png"></image>猛爆碎龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="斩龙"><image class="iconImage" src="../../image/斩龙/1.png"></image>斩龙</button>
+    <button class='button' bindtap='buttonTap' data-text="烬灭刃斩龙"><image class="iconImage" src="../../image/烬灭刃斩龙/1.png"></image>烬灭刃斩龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="迅龙"><image class="iconImage" src="../../image/迅龙/1.png"></image>迅龙</button>
+    <button class='button' bindtap='buttonTap' data-text="白疾风迅龙"><image class="iconImage" src="../../image/白疾风迅龙/1.png"></image>白疾风迅龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="冰牙龙"><image class="iconImage" src="../../image/冰牙龙/1.png"></image>冰牙龙</button>
+    <button class='button' bindtap='buttonTap' data-text="炎弋龙"><image class="iconImage" src="../../image/炎弋龙/1.png"></image>炎弋龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="雌火龙"><image class="iconImage" src="../../image/雌火龙/1.png"></image>雌火龙</button>
+    <button class='button' bindtap='buttonTap' data-text="紫毒姬雌火"><image class="iconImage" src="../../image/紫毒姬雌火/1.png"></image>紫毒姬雌火</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="火龙"><image class="iconImage" src="../../image/火龙/1.png"></image>火龙</button>
+    <button class='button' bindtap='buttonTap' data-text="黑炎王火龙"><image class="iconImage" src="../../image/黑炎王火龙/1.png"></image>黑炎王火龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="金火龙"><image class="iconImage" src="../../image/金火龙/1.png"></image>金火龙</button>
+    <button class='button' bindtap='buttonTap' data-text="银火龙"><image class="iconImage" src="../../image/银火龙/1.png"></image>银火龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="轰龙"><image class="iconImage" src="../../image/轰龙/1.png"></image>轰龙</button>
+    <button class='button' bindtap='buttonTap' data-text="荒勾爪轰龙"><image class="iconImage" src="../../image/荒勾爪轰龙/1.png"></image>荒勾爪轰龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="千刃龙"><image class="iconImage" src="../../image/千刃龙/1.png"></image>千刃龙</button>
+    <button class='button' bindtap='buttonTap' data-text="麒麟"><image class="iconImage" src="../../image/麒麟/1.png"></image>麒麟</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="电龙"><image class="iconImage" src="../../image/电龙/1.png"></image>电龙</button>
+    <button class='button' bindtap='buttonTap' data-text="青电主电龙"><image class="iconImage" src="../../image/青电主电龙/1.png"></image>青电主电龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="角龙"><image class="iconImage" src="../../image/角龙/1.png"></image>角龙</button>
+    <button class='button' bindtap='buttonTap' data-text="鏖魔角龙"><image class="iconImage" src="../../image/鏖魔角龙/1.png"></image>鏖魔角龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="霸龙"><image class="iconImage" src="../../image/霸龙/1.png"></image>霸龙</button>
+    <button class='button' bindtap='buttonTap' data-text="崩龙"><image class="iconImage" src="../../image/崩龙/1.png"></image>崩龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="黑蚀龙"><image class="iconImage" src="../../image/黑蚀龙/1.png"></image>黑蚀龙</button>
+    <button class='button' bindtap='buttonTap' data-text="混沌黑蚀龙"><image class="iconImage" src="../../image/混沌黑蚀龙/1.png"></image>混沌黑蚀龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="雷狼龙"><image class="iconImage" src="../../image/雷狼龙/1.png"></image>雷狼龙</button>
+    <button class='button' bindtap='buttonTap' data-text="金雷公雷狼"><image class="iconImage" src="../../image/金雷公雷狼/1.png"></image>金雷公雷狼</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="天廻龙"><image class="iconImage" src="../../image/天廻龙/1.png"></image>天廻龙</button>
+    <button class='button' bindtap='buttonTap' data-text="天慧龙"><image class="iconImage" src="../../image/天慧龙/1.png"></image>天慧龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="钢龙"><image class="iconImage" src="../../image/钢龙/1.png"></image>钢龙</button>
+    <button class='button' bindtap='buttonTap' data-text="霞龙"><image class="iconImage" src="../../image/霞龙/1.png"></image>霞龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="炎王龙"><image class="iconImage" src="../../image/炎王龙/1.png"></image>炎王龙</button>
+    <button class='button' bindtap='buttonTap' data-text="老山龙"><image class="iconImage" src="../../image/老山龙/1.png"></image>老山龙</button>
+  </view>
+  <view class="btnSet">
+    <button class='button' bindtap='buttonTap' data-text="岚龙"><image class="iconImage" src="../../image/岚龙/1.png"></image>岚龙</button>
+    <button class='button' bindtap='buttonTap' data-text="骸龙"><image class="iconImage" src="../../image/骸龙/1.png"></image>骸龙</button>
+  </view>
+  <modal title="{{modalTitle}}" hidden="{{modalHidden}}" bindconfirm="modalConfirm" no-cancel class="model">
+        <image class="image" src="../../image/{{modalTitle}}/2.png" style="width: 100%;" mode="widthFix"></image>
+        <image class="image" src="../../image/{{modalTitle}}/3.png" style="width: 100%;" mode="widthFix"></image>
+  </modal>
+</view>
+
+    
+

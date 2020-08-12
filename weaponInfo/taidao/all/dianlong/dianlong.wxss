@@ -1,0 +1,128 @@
+/* weaponInfo/dianlong/dianlong.wxss */
+.table {
+  border: 0px solid darkgray;
+  padding: 20rpx 10rpx;
+}
+.head{
+  text-align: center;
+}
+.tr {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  font-size: 60%;
+}
+.td1 {
+    width:30%;
+    justify-content: center;
+    text-align: center;
+}
+.td2 {
+  width:10%;
+  justify-content: center;
+  text-align: center;
+}
+.td3 {
+  width:10%;
+  justify-content: center;
+  text-align: center;
+}
+.td4 {
+  width:10%;
+  justify-content: center;
+  text-align: center;
+}
+.td5 {
+  width:5%;
+  justify-content: center;
+  text-align: center;
+}
+.td6 {
+  width:35%;
+  justify-content: center;
+  text-align: center;
+}
+.bg-w{
+  background: #0089dd;
+  opacity: 0.6;
+  font-size: small;
+}
+.bg-g{
+  background: #E6F3F9;
+  font-size: small;
+}
+.th1 {
+  width: 30%;
+  justify-content: center;
+  background: #0089bb;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.th2 {
+  width: 10%;
+  justify-content: center;
+  background: #0089bb;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.th3 {
+  width: 10%;
+  justify-content: center;
+  background: #0089bb;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.th4 {
+  width: 10%;
+  justify-content: center;
+  background: #0089bb;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.th5 {
+  width: 5%;
+  justify-content: center;
+  background: #0089bb;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.th6 {
+  width: 35%;
+  justify-content: center;
+  background: #0089bb;
+  color: #fff;
+  display: flex;
+  height: 3rem;
+  align-items: center;
+}
+.image{
+  align-items: center;
+  width: 80%;
+  height: 20px;
+  margin-left: 10%;
+}
+.foot{
+  text-align: center;
+  padding-top: 5%;
+  margin-bottom: 20%;
+}
+.txt{
+  color: #0089dd;
+  padding-right: 20px;
+}
+.radio{
+  size: 10px;
+  color: dodgerblue;
+}

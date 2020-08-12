@@ -1,0 +1,44 @@
+<!--weaponInfo/taidao/taidao.wxml-->
+<view class="body">
+  <view class="infoSet">
+    <image src="../../image/title.jpg" style="width: 100%;" mode="widthFix" class="img"></image>
+    <view ><input value="物理太刀" class="title"></input></view>
+    <view class="btnSet">
+        <button class="btn" bindtap="getanglang">宝镰之金属器</button>
+        <button class="btn" bindtap="kailie">铠裂太刀</button>
+    </view>
+    <view class="btnSet">
+        <button class="btn" bindtap="yanchuan">涡纹鬼怀刀</button>
+        <button class="btn" bindtap="youbiao">测定未解之太刀</button>
+    </view>
+    <view ><input value="雷属性太刀" class="lei"></input></view>
+    <view class="btnSet">
+        <button class="btn" bindtap="leiqie">王刀雷切</button>
+        <button class="btn" bindtap="dianlong">飞龙刀[绿柱石]</button>
+    </view>
+    <view ><input value="冰属性太刀" class="bing"></input></view>
+    <view class="btnSet">
+        <button class="btn" bindtap="shenxue">深雪一文字</button>
+        <button class="btn" bindtap="bingya">冰牙朱红刃</button>
+    </view>
+    <view ><input value="火属性太刀" class="huo"></input></view>
+    <view class="btnSet">
+        <button class="btn" bindtap="zhanlong">灼炎太刀</button>
+        <button class="btn" bindtap="feilong">飞龙刀[双炎]</button>
+    </view>
+    <view ><input value="爆破属性太刀" class="bao"></input></view>
+    <view class="btnSet">
+        <button class="btn" bindtap="suilong">碎光晓刀</button>
+        <button class="btn" bindtap="jinmie">烬灭刃</button>
+    </view>
+    <view class="footinp"><input value="武器派生概览" class="footinptext"></input></view>
+    <view class="allweapon">
+      <button class="weaponbtn" bindtap="buttonTap" data-text="1"><text>贝鲁纳马刀</text></button>
+      <button class="weaponbtn" bindtap="buttonTap" data-text="2"><text space="nbsp">铁      刀</text></button>
+      <button class="weaponbtn" bindtap="buttonTap" data-text="3"><text space="nbsp">颚      刀</text></button>
+    </view>
+    <modal hidden="{{modalHidden}}" bindconfirm="modalConfirm" no-cancel class="model" catchtouchmove="preventTouchMove">
+        <image class="image" src="all/paisheng/{{modalTitle}}.png" style="width: 100%;" mode="widthFix"></image>
+    </modal>
+  </view>
+</view>

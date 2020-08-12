@@ -1,0 +1,8 @@
+<!--pages/weapon/weapon.wxml-->
+<view class="container">
+  <button class="btn" bindtap="jumpDajian"><image class="image" src="../../image/dajian.png"></image>大剑</button>
+  <button class="btn" bindtap="jumpTaidao"><image class="image" src="../../image/taidao.png"></image>太刀</button>
+  <button class="btn" bindtap="jumpPianshou"><image class="image" src="../../image/pianshou.png"></image>片手剑</button>
+  <button class="btn" bindtap="jumpShuangdao"><image class="image" src="../../image/shuangdao.png"></image>双刀</button>
+  <button class="btn" bindtap="jumpDunfu"><image class="image" src="../../image/dunfu.png"></image>盾斧</button>
+</view>

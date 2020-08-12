@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/monster/monster",
+    "pages/weapon/weapon",
+    "pages/skill/skill",
+    "weaponInfo/dajian/dajian",
+    "weaponInfo/taidao/taidao",
+    "weaponInfo/pianshou/pianshou",
+    "weaponInfo/shuangdao/shuangdao",
+    "weaponInfo/dunfu/dunfu",
+    "weaponInfo/taidao/all/getanglang/getanglang",
+    "weaponInfo/taidao/all/kailie/kailie",
+    "weaponInfo/taidao/all/yanchuan/yanchuan",
+    "weaponInfo/taidao/all/youbiao/youbiao",
+    "weaponInfo/taidao/all/leiqie/leiqie",
+    "weaponInfo/taidao/all/dianlong/dianlong",
+    "weaponInfo/taidao/all/shenxue/shenxue",
+    "weaponInfo/taidao/all/bingya/bingya",
+    "weaponInfo/taidao/all/zhanlong/zhanlong",
+    "weaponInfo/taidao/all/feilong/feilong",
+    "weaponInfo/taidao/all/suilong/suilong",
+    "weaponInfo/taidao/all/jinmie/jinmie"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

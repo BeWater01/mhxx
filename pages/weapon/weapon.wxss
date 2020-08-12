@@ -1,0 +1,18 @@
+/* pages/weapon/weapon.wxss */
+.container{
+  margin-top: 3%;
+}
+.image{
+  width: 20px;
+  height: 20px;
+  padding-right: 15px;
+  padding-left: 40px;
+}
+.btn{
+  background-color: #E6F3F9;
+  text-align: left;
+  font-size: 80%;
+  width: 20%;
+  size: 10px;
+  margin: 1%;
+}
